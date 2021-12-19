@@ -62,59 +62,57 @@
 											><span>Левша</span>
 										</label>
 									</div>
-									<div class="form__item">
-										<label for="formMessage" class="form__label"
-											>Сообщение:</label
-										>
-										<textarea
-											class="form__input"
-											name="message"
-											id="formMessage"
-										></textarea>
-									</div>
-									<div class="form__item">
-										<div class="form__label">Возраст:</div>
-										<select name="age" class="select">
-											<option value="от 18 до 25" selected>Молодой</option>
-											<option value="от 25 до 45">Стар</option>
-											<option value="от 45">Супер стар</option>
-										</select>
-									</div>
-									<div class="form__item">
-										<div class="form__label">Прикрепить фото</div>
-										<div class="file">
-											<div class="file__item">
-												<input
-													id="formImage"
-													accept=".jpg, .png, .gif"
-													type="file"
-													name="image"
-													class="file__input"
-												/>
-												<div class="file__button">Выбрать</div>
-												<div id="formPreview" class="file__preview"></div>
-											</div>
-										</div>
-									</div>
-									<div class="form__item">
-										<div class="checkbox">
-											<input
-												checked
-												id="formAgreement"
-												type="checkbox"
-												name="agreement"
-												class="checkbox__input _req"
-											/>
-											<label for="formAgreement" class="checkbox__label"
-												><span
-													>Я даю свое согласие на обработку персональных данных,
-													в соответствии с <a href="#">условиями</a></span
-												></label
-											>
-										</div>
+								</div>
+							</div>
+							<div class="form__item">
+								<label for="formMessage" class="form__label">Сообщение:</label>
+								<textarea
+									class="form__input"
+									name="message"
+									id="formMessage"
+								></textarea>
+							</div>
+							<div class="form__item">
+								<div class="form__label">Возраст:</div>
+								<select name="age" class="select">
+									<option value="от 18 до 25" selected>Молодой</option>
+									<option value="от 25 до 45">Стар</option>
+									<option value="от 45">Супер стар</option>
+								</select>
+							</div>
+							<div class="form__item">
+								<div class="form__label">Прикрепить фото</div>
+								<div class="file">
+									<div class="file__item">
+										<input
+											id="formImage"
+											accept=".jpg, .png, .gif"
+											type="file"
+											name="image"
+											class="file__input"
+										/>
+										<div class="file__button">Выбрать</div>
+										<div id="formPreview" class="file__preview"></div>
 									</div>
 								</div>
 							</div>
+							<div class="form__item">
+								<div class="checkbox">
+									<input
+										id="formAgreement"
+										type="checkbox"
+										name="agreement"
+										class="checkbox__input _req"
+									/>
+									<label for="formAgreement" class="checkbox__label"
+										><span
+											>Я даю свое согласие на обработку персональных данных, в
+											соответствии с <a href="#">условиями</a></span
+										></label
+									>
+								</div>
+							</div>
+
 							<button type="submit" class="form__button">Отправить</button>
 						</form>
 					</div>
